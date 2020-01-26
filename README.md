@@ -20,3 +20,10 @@ used to screen out vocabulary words that are below or above the threshold.
 The data set is divided into training and testing repeatedly to increase the randomness.For a test document use 
 the Naive Bayes decision rule to give a spam or ham label. Find the performance on each test set.
 The average of all the obtained performances is the final result. This is stored in result.csv
+
+In result.csv, vocabulary column denotes:
+1 - Raw dataset
+2 - + Stop word removed dataset
+3 - + Lemmatized dataset
+4 - + Frequency pruned dataset
+(In the code I have saved 1 as v1 and 4 as v4, you can check out steps 2 and 3 too even though not saved.)
